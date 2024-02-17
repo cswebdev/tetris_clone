@@ -1,0 +1,14 @@
+.BoardCell {
+    width: auto;
+    border-radius: 6px;
+    position: relative;
+}
+
+/* 
+.tetromino {
+    border-top: 3px solid rgba(255, 255, 255, 0.1);
+    border-left: 3px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    border-right: 3px solid rgba(0, 0, 0, 0.1);
+
+} */

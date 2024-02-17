@@ -1,7 +1,12 @@
 import "./App.css";
+import Game from "../src/components/Game/Game";
 
 function App() {
-   return <div className="App"></div>;
+   return (
+      <div className="App">
+         <Game rows={20} columns={10} />
+      </div>
+   );
 }
 
 export default App;

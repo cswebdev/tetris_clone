@@ -1,9 +1,8 @@
 import React from "react";
 import "./Board.css";
-import { useBoard } from "../../hooks/useBoard";
+import BoardCell from "./BoardCell/BoardCell";
 
 const Board = ({ board }) => {
-
    const boardStyles = {
       gridTemplateRows: `repeat(${board.size.rows}, 1fr)`,
       gridTemplateColumns: `repeat(${board.size.columns}, 1fr)`,

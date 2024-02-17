@@ -2,6 +2,7 @@
     width: auto;
     border-radius: 6px;
     position: relative;
+    background-color: rgba(255, 255, 255, 0.017);
 }
 
 
@@ -40,10 +41,19 @@
     background-color: rgba(223, 173, 36, 1);
 }
 
+
 .tetromino__o {
     background-color: rgba(223, 217, 36, 1);
 }
 
+.tetromino__t {
+    background-color: rgb(251, 82, 195);
+}
+
 .tetromino__s {
+    background-color: rgb(33, 206, 180);
+}
+
+.tetromino__z {
     background-color: rgba(48, 211, 56, 1);
 }

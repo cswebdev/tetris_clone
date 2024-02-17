@@ -13,7 +13,7 @@
 
 }
 
-.Sparkle {
+.tetromino .Sparkle {
     position: absolute;
     z-index: 10;
     width: 6px;

@@ -1,8 +1,17 @@
 import React from "react";
 import "./Game.css";
+import Menu from "../Menu/Menu";
 
 const Game = ({ rows, columns }) => {
-   return <div>game works</div>;
+   const start = () => {
+      console.log("start");
+   };
+
+   return (
+      <div className="Game">
+         <Menu onClick={start} />
+      </div>
+   );
 };
 
 export default Game;

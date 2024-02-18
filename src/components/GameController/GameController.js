@@ -2,6 +2,7 @@ import React from "react";
 import "./GameController.css";
 
 import { Action, actionForKey } from "../../utils/Input";
+import { playerController } from "../../utils/PlayerController.js";
 
 const GameController = ({
    board,
@@ -17,7 +18,18 @@ const GameController = ({
       }
    };
    const onKeyDown = ({ code }) => {
-      console.log(`onKeyDown${code}`);
+      const action = actionForKey(code);
+      handleInput({ action });
+   };
+
+   const handleInput = ({ action }) => {
+      playerController({
+         action,
+         board,
+         player,
+         setPlayer,
+         setGameOver,
+      });
    };
 
    return (

@@ -43,16 +43,19 @@ export const hasCollision = ({ board, position, shape }) => {
             const column = x + position.column;
 
             if (
-               board.row[row] &&
-               board.row[row][column] &&
-               board.row[row][column].occupied
+               board.rows[row] &&
+               board.rows[row][column] &&
+               board.rows[row][column].occupied
             ) {
                return true;
             }
          }
       }
    }
+
+   return false;
 };
+
 export const isWithinBoard = ({ board, position, shape }) => {
    for (let y = 0; y < shape.length; y++) {
       const row = y + position.row;

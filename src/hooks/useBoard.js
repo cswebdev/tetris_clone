@@ -8,7 +8,7 @@ export const useBoard = ({
    resetPlayer,
    addLinesCleared,
 }) => {
-   const [board] = useState(buildBoard({ rows, columns }));
+   const [board, setBoard] = useState(buildBoard({ rows, columns }));
 
    useEffect(() => {
       setBoard((previousBoard) =>

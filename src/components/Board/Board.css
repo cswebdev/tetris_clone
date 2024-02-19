@@ -1,15 +1,15 @@
 .Board {
-    margin: 2em auto;
+    margin: 1em auto;
     display: grid;
-    grid-gap: 4px;
-    width: 30vw;
+    grid-gap: 2px;
+    width: 28vw;
     height: 90vh;
     /* background: rgb(32, 0, 64); */
-    background: rgba(88, 136, 178, 0.899);
+    background: rgba(27, 97, 158, 0.899);
 
     /* border: 10px solid rgb(32, 0, 64); */
     border: 10px solid rgba(206, 206, 206, 0.554);
-    padding: 5px;
+    padding: 2px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

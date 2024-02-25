@@ -5,11 +5,11 @@
     width: 28vw;
     height: 90vh;
     /* background: rgb(32, 0, 64); */
-    background: rgba(27, 97, 158, 0.899);
+    background: rgba(36, 147, 243, 0.851);
 
     /* border: 10px solid rgb(32, 0, 64); */
-    border: 10px solid rgba(206, 206, 206, 0.554);
+    border: 10px solid rgba(246, 246, 246, 0.845);
     padding: 2px;
-    border-radius: 10px;
+    border-radius: .2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

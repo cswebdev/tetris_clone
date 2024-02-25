@@ -6,9 +6,9 @@ const Info = () => {
       <div className="Info">
          <h1 className="Info-header">How to play</h1>
          <p className="Info-body">
-            Tetris is a simple puzzle game. Use the tetrominoes fill any vacant
-            spaces on the board. Once you complete a row, you will gain points
-            and the row will clear. Keep going for as long as you can!
+            Tetris is a simple puzzle game. Use the to tetrominoes fill any
+            vacant spaces on the board. Once you complete a row, you will gain
+            points and the row will clear. Keep going for as long as you can!
          </p>
 
          <div className="Info-controls">

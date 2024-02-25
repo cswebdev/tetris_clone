@@ -1,6 +1,56 @@
-# Getting Started with Create React App
+# Tetris Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hey there :) Thanks for checking out my project! This game is a clone of the classic Tetris game built using ReactJS.
+
+## Gameplay
+Tetris is a classic puzzle game. 
+
+- Use the arrow keys on your keyboard to move the tetrominoes (blocks).
+- Press the down arrow key to accelerate their descent.
+- Press Space button to fast drop the blocks.
+  
+Try to complete horizontal lines with the tetrominoes to clear them and score points.
+The game ends when the stack of tetrominoes reaches the top of the grid.
+
+If you want to code the project yourself like I did, follow the YouTube tutorial made by Restful Coder. It's a really fun project! </br> https://www.youtube.com/watch?v=yCEIgEOZ36g
+
+### Prerequisites
+Ensure you have Node.js and npm installed on your local machine.
+
+## Getting Started
+To get a local copy up and running follow these simple steps.
+
+## Clone the projecet
+Copy the one of the following git commands and paste it into your terminal to clone the project using your preferred method.
+
+### HTTPS: 
+```
+git clone https://github.com/your-username/tetris-clone.git
+```
+
+### SSH: 
+```
+git@github.com:cswebdev/tetris_clone.git
+```
+
+### Navigate to the project
+```
+cd tetris_clone
+```
+### Install dependencies
+The only dependecides I added were an updated babel script package. No other npm packages were installed. You will need to get the updated babel script. 
+
+```
+npm install
+```
+
+### Run the game! 
+
+```
+npm start
+```
+
+
 
 ## Available Scripts
 

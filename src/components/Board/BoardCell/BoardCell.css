@@ -35,20 +35,20 @@
 }
 
 .tetromino__i {
-    background-color: rgb(244, 135, 88);
+    background-color: rgb(255, 113, 113);
 }
 
 .tetromino__j {
-    background-color: rgb(8, 66, 255);
+    background-color: rgb(143, 63, 255);
 }
 
 .tetromino__l {
-    background-color: rgba(223, 173, 36, 1);
+    background-color: rgb(223, 214, 36);
 }
 
 
 .tetromino__o {
-    background-color: rgba(223, 217, 36, 1);
+    background-color: rgb(255, 185, 93);
 }
 
 .tetromino__t {
@@ -56,9 +56,9 @@
 }
 
 .tetromino__s {
-    background-color: rgb(38, 241, 255);
+    background-color: rgb(38, 215, 255);
 }
 
 .tetromino__z {
-    background-color: rgba(48, 211, 56, 1);
+    background-color: rgb(80, 231, 38);
 }
